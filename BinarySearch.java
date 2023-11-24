@@ -2,7 +2,7 @@ public class BinarySearch {
     public static int BinarySearch(int[] a, int target){
         int i = 0, j = a.length-1;
         while (i <= j) { //can not write i<j
-            int m = (i+j)/2;
+            int m = (i+j)/2; //can use (i+j)>>>1
             if (a[m]==target) {
                 return m;
             }
