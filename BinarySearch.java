@@ -1,3 +1,5 @@
+//Written by Sy
+
 public class BinarySearch {
     public static int BinarySearch(int[] a, int target) {
         int i = 0, j = a.length - 1;
