@@ -1,7 +1,7 @@
 package Learning;
 
 public class DynamicArray {
-    private int size = 0;
+    private int size = 0; 
     private int capacity = 8;
     private int[] array = new int[capacity];
 
@@ -34,6 +34,6 @@ public class DynamicArray {
         arr.addLast(3);
         arr.addLast(4);
         arr.add(0, 1);
-        arr.printArray();
+        arr.printArray(); // the output should be 3 0 4
     }
 }
